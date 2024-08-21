@@ -93,7 +93,7 @@ class ProductController extends Controller
             'quantity' => 'required|integer',
             'image' => '',
         ]);   
-      // Update Comment properties
+      
       $product->category_id = $request->input('category_id');
       $product->name = $request->input('name');
       $product->slug = $request->input('slug');
